@@ -55,9 +55,9 @@ LISTEN     0          4096           127.0.0.53%lo:53                0.0.0.0:*  
 LISTEN     0          128                     [::]:22                   [::]:*         users:(("sshd",pid=746,fd=4))
 LISTEN     0          4096                    [::]:111                  [::]:*         users:(("rpcbind",pid=622,fd=6),("systemd",pid=1,fd=37))
 ```
-> TCP 22 ssh
-> TCP 111 SUNRPC
-> TCP 53 DNS
+- TCP 22 ssh
+- TCP 111 SUNRPC
+- TCP 53 DNS
 
 4.
 
@@ -69,9 +69,9 @@ UNCONN     0          0              10.0.2.15%eth0:68                0.0.0.0:* 
 UNCONN     0          0                     0.0.0.0:111               0.0.0.0:*        users:(("rpcbind",pid=622,fd=5),("systemd",pid=1,fd=36))
 UNCONN     0          0                        [::]:111                  [::]:*        users:(("rpcbind",pid=622,fd=7),("systemd",pid=1,fd=38))
 ```
-> UDP 53 DNS
-> UDP 68 Bootstrap Protocol Client (DHCP)
-> UDP 111 SUNRPC 
+- UDP 53 DNS
+- UDP 68 Bootstrap Protocol Client (DHCP)
+- UDP 111 SUNRPC 
 
 5.
 
